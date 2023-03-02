@@ -1,2 +1,30 @@
-/**/
+.calculator-menu {
+    margin-top: 200px;
+}
+.calculator-menu {
+  background-color: #b19d9dd8;
+  border: 1px solid #ccc;
+  padding: 20px;
+  height: 400px;
+  width: 300px;
+}
+
+.calculator-menu h1 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+.calculator-menu a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.calculator-menu a:hover {
+  color: #000;
+}
+.input1 {
+    margin-top: 100px;
+}
+
+
 

@@ -7,19 +7,40 @@
     <script src="components/loader.js"></script>
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
-    <script>
-        function OlaMundo()
-        {
-            alert ("Olá Mundo");
-        }
-         function OlaMundo1()
-        {
-            alert ("mbzinho");
-        }
-    </script>
+    <script type="text/javascript" src="components/motor.js"> </script>
 </head>
-<body onload="OlaMundo()">
-	<br />
-    <p>Mbzinho</p>
+<body>
+	<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="motor.js"></script>
+    <title>Calculadora regra de 3</title>
+</head>
+<body>
+    <center>
+    <div class="calculator-menu">
+    <input type = "number" id="valor1" placeholder="1º Valor" class="input1">
+    <br><br>
+    <input type = "number" id="valor2" placeholder="2º Valor">
+    <br><br>
+    <input type = "number" id="valor3" placeholder="3º Valor">
+    <br><br>
+    <input type = "number" id="resultado" placeholder="Resultado" disabled>
+    <br><br>
+    <input type = "button" id="btnCalcular" value="Calcular" onclick="calcularregrade3()">
+    <br>
+    <br>
+
+
+    <h1 id="result">Resultado</h1>
+    <h1 id="result1">Resultado</h1>
+    </div>
+    </center>
+</body>
+</html>
 </body>
 </html>
